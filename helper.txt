@@ -1,5 +1,10 @@
 npx create-next-app@latest --ts auth-project
-
 yarn add -D tailwindcss postcss autoprefixer
 yarn add daisyui
 npx tailwindcss init -p
+
+yarn add prisma
+npx prisma init
+
+yarn add @trpc/client @trpc/server @trpc/react @trpc/next zod react-query@3.39.1 superjson jotai @prisma/client react-hook-form jsonwebtoken cookie nodemailer
+yarn add @types/jsonwebtoken @types/cookie @types/nodemailer -D
